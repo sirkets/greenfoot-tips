@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Button
+comment0.text=\n\ Clickable\ button\n
+comment1.params=object\ text\ width\ height
+comment1.target=Button(Clickable,\ java.lang.String,\ int,\ int)
+comment1.text=\n\ Consruct\ a\ button\ with\ text,\ width\ and\ height\n\ @param\ text\ The\ text\ to\ show\ on\ the\ button\n\ @param\ width\ The\ width\ of\ the\ button\n\ @param\ height\ the\ height\ of\ the\ button\n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ updateImage()
+comment3.text=\n\ Update\ the\ button\ image\ based\ on\ its\ current\ state\n
+numComments=4

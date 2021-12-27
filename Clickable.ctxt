@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Clickable
+comment0.text=\n\ For\ objects\ that\ respond\ to\ button\ clicks\n\ \n
+comment1.params=
+comment1.target=void\ onClick()
+numComments=2
