@@ -44,6 +44,10 @@ public class StartWorld extends World implements Clickable
             Reader.readInto(nouns);
         }catch(Exception e){}
 
+        
+        Dolphin d = new Dolphin();
+        Button dButton = new Button(d, "Dolphin", 200, 30);
+        addObject(dButton, getWidth()/2, getHeight() - 50);
     }
 
     public void onClick()
