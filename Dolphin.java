@@ -8,17 +8,20 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Dolphin extends Actor implements Clickable
 {
-    /**
-     * Act - do whatever the Dolphin wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act()
-    {
-        // Add your action code here.
-    }
+    int alpha = 255;
     
     public void onClick()
     {
-        System.out.println("Hello");
+        toggleTransparency();
+    }
+    
+    private void toggleTransparency()
+    {
+        if(alpha == 255){
+            alpha = 0;
+        } else {
+            alpha = 255;
+        }
+        getImage().setTransparency(alpha);
     }
 }

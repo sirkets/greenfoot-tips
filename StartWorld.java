@@ -46,6 +46,7 @@ public class StartWorld extends World implements Clickable
 
         
         Dolphin d = new Dolphin();
+        addObject(d, 100, 100);
         Button dButton = new Button(d, "Dolphin", 200, 30);
         addObject(dButton, getWidth()/2, getHeight() - 50);
     }
