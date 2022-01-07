@@ -1,17 +1,18 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import java.util.List;
 import java.util.ArrayList;
 
 /**
- * Write a description of class MyWorld here.
+ * Example project for how to use Greenfoot.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Chan 
+ * @version Jan 2022
  */
 public class StartWorld extends World implements Clickable
 {
     Label display;
     Button button;
-    ArrayList<String> nouns;
+    List<String> nouns = new ArrayList<String>();
 
     /**
      * Constructor for objects of class MyWorld.
@@ -37,7 +38,7 @@ public class StartWorld extends World implements Clickable
         addObject(button, buttonWidth, buttonHeight);
 
         // Instantiate arraylist
-        nouns = new ArrayList<String>();
+        //nouns = new ArrayList<String>();
         
         // Read nouns into list
         try{
@@ -47,6 +48,7 @@ public class StartWorld extends World implements Clickable
         
         Dolphin d = new Dolphin();
         addObject(d, 100, 100);
+        
         Button dButton = new Button(d, "Dolphin", 200, 30);
         addObject(dButton, getWidth()/2, getHeight() - 50);
     }

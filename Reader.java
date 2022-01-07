@@ -1,12 +1,12 @@
 import java.net.*;
 import java.io.*;
-import java.util.ArrayList;
+import java.util.List;
 
 /**
  * An example of how you could read a list of text from a URL
  */
 public class Reader {
-    public static void readInto(ArrayList<String> list) throws Exception {
+    public static void readInto(List<String> list) throws Exception {
         // Urls that contain lists of words
         String url = "https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english-no-swears.txt";
         String nouns = "https://gist.githubusercontent.com/sirkets/7d89492826a0d245a086e8c5c56829a8/raw/307ef87315bf0360f682bf25821fdcf4fe71db8c/nouns.txt";

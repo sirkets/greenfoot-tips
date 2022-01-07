@@ -2,5 +2,5 @@
 comment0.target=Reader
 comment0.text=\n\ An\ example\ of\ how\ you\ could\ read\ a\ list\ of\ text\ from\ a\ URL\n
 comment1.params=list
-comment1.target=void\ readInto(java.util.ArrayList)
+comment1.target=void\ readInto(java.util.List)
 numComments=2
